@@ -1,0 +1,9 @@
+services:
+  test:
+    build: .
+    ports:
+      - "8000:5000"
+    volumes:
+      - .:/app 
+    command: 
+
