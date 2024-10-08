@@ -10,5 +10,3 @@ COPY *.go ./
 RUN docker build main.go .
 
 EXPOSE 8080
-
-CMD ["./myapp"]
