@@ -7,7 +7,7 @@ RUN go mod download
 
 COPY *.go ./
 
-RUN go build main.go .
+RUN docker build main.go .
 
 EXPOSE 8080
 
