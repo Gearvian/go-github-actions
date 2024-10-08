@@ -1,4 +1,4 @@
-name: GoLangPushTestt
+name: GoLangPushTesttt
 
 on:
   push:
