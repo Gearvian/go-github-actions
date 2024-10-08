@@ -7,8 +7,8 @@ RUN go mod download
 
 COPY *.go ./
 
-RUN docker compose up 
+RUN go build main.go .
 
 EXPOSE 8080
 
-CMD ["/docker-gs-ping"]
+CMD ["./myapp"]
